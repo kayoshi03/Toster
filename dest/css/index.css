@@ -1,0 +1,318 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("./../fonts/GothamPro.ttf");
+}
+@font-face {
+  font-family: "Gotham Pro-medium";
+  src: url("./../fonts/GothamPro-Medium.ttf");
+}
+@font-face {
+  font-family: "Gotham Pro-bold";
+  src: url("./../fonts/GothamPro-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background: #F0F0F0;
+}
+body header {
+  padding: 11px 13px 10px 14px;
+  background: #F19D2F;
+}
+body header h1 {
+  color: #2C2B31;
+  text-align: center;
+  font-family: "Gotham Pro-medium";
+  font-size: 12.694px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+body .unHeader {
+  padding: 19px 86px;
+  background: #FFD1AC;
+}
+body .banner {
+  position: relative;
+  height: 281px;
+  padding: 14px 14px;
+  background-image: url("./../img/banner.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+body .banner .block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+body .banner .block .limit {
+  width: 103px;
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 7.101px;
+  border-radius: 7.101px;
+  background: #F19D2F;
+  text-align: center;
+}
+body .banner .block .limit p {
+  color: #FFF;
+  font-family: "Gotham Pro-bold";
+  font-size: 10.599px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+body .banner .block .limit #time {
+  color: #FFF;
+  font-family: "Gotham Pro-bold";
+  font-size: 21.254px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 10.14px;
+}
+body .banner .block .price {
+  width: 116px;
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6.488px 7.019px 5.677px 7.019px;
+  border-radius: 5.677px;
+  background: #37D997;
+  text-align: center;
+}
+body .banner .block .price .sell {
+  position: relative;
+  font-size: 18.077px;
+}
+body .banner .block .price .sell:after {
+  content: "";
+  top: 45%;
+  left: 0;
+  position: absolute;
+  background: #F19D2F;
+  width: 100%;
+  height: 3.514px;
+  border-radius: 3.51px;
+}
+body .banner .block .price p {
+  color: #FFF;
+  font-size: 22.301px;
+  font-family: "Gotham Pro-bold";
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+body main {
+  padding: 11px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+body main .info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .info img {
+  margin-right: 11px;
+}
+body main .info .rait {
+  color: #2C2B31;
+  font-family: "Gotham Pro";
+  font-size: 12.067px;
+  font-style: normal;
+  line-height: normal;
+}
+body main .info .selling {
+  color: #37D997;
+  text-align: right;
+  font-family: "Gotham Pro";
+  font-size: 12.067px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+body main .title {
+  width: 100%;
+}
+body main .title h1 {
+  color: #2C2B31;
+  font-family: "Gotham Pro-bold";
+  font-size: 19.168px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: start;
+}
+body main .gallery {
+  width: 100%;
+  height: 100%;
+}
+body main .gallery .mainSlide {
+  width: 358px;
+  height: 232px;
+  margin-bottom: 20px;
+}
+body main .gallery .mainSlide img {
+  width: 358px;
+  height: 232px;
+}
+body main .gallery .prev {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body main .gallery .prev .thumbnail img {
+  width: 80px;
+  height: 66px;
+  border-radius: 10px;
+}
+body main .gallery .prev :hover {
+  opacity: 0.7;
+}
+body main .description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body main .description .stock {
+  width: 100%;
+}
+body main .description .stock p {
+  color: #000;
+  font-family: "Gotham Pro-bold";
+  font-size: 15.29px;
+  font-style: normal;
+  line-height: normal;
+}
+body main .description .stock p span {
+  color: #000;
+  font-family: "Gotham Pro";
+  font-size: 15.29px;
+  font-style: normal;
+  line-height: normal;
+}
+body main .description .deliv {
+  width: 100%;
+}
+body main .description .deliv p {
+  color: #000;
+  font-family: "Gotham Pro-bold";
+  font-size: 15.29px;
+  font-style: normal;
+  line-height: normal;
+}
+body main .description .deliv p span {
+  color: #000;
+  font-family: "Gotham Pro";
+  font-size: 15.29px;
+  font-style: normal;
+  line-height: normal;
+}
+body main .description .raiting {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body main .description .raiting p {
+  margin-left: 10px;
+  color: #2C2B31;
+  font-family: "Gotham Pro";
+  font-size: 15.29px;
+  font-style: normal;
+  line-height: normal;
+}
+body main .list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body main .list .colors {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .list .colors select {
+  appearance: none;
+  background: #FFFFFF;
+  border-radius: 15px;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  color: #2C2B31;
+  font-family: "Gotham Pro-bold";
+  font-size: 21.69px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+body main .list .colors:after {
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 9px;
+  top: 61%;
+  left: 84%;
+  background-image: url("./../img/arrow.svg");
+}
+body main .list .size {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .list .size select {
+  background: #FFFFFF;
+  border-radius: 15px;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  color: #2C2B31;
+  font-family: "Gotham Pro-bold";
+  font-size: 21.69px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+body main .buttonBuy {
+  width: 100%;
+}
+body main .buttonBuy button {
+  width: 100%;
+  height: 50px;
+  background: #37D997;
+  border-radius: 15px;
+}
+body main .buttonBuy button a {
+  color: #FFF;
+  text-align: center;
+  font-family: "Gotham Pro-medium";
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
